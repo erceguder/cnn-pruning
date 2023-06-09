@@ -3,7 +3,7 @@
 This readme file is an outcome of the [CENG501 (Spring 2022)](https://ceng.metu.edu.tr/~skalkan/DL/) project for reproducing a paper without an implementation. See [CENG501 (Spring 2022) Project List](https://github.com/CENG501-Projects/CENG501-Spring2022) for a complete list of all paper reproduction projects.
 
 # 1. Introduction
-Our project paper, Convolutional Neural Network Pruning with Structural Redundancy Reduction by Wang et al., was accepted to CVPR 2021. In the paper, authors propose a filter pruning method, which highlights the importance of pruning filters from 'redundant' layers rather than pruning filters from the network as a whole. The main contribution of the paper is the method for computing structural redundancies of convolutional layers, where the proposed algorithm differs from and outperforms the state-of-the-art approaches [1-5]. As the dataset, the authors used CIFAR-10 and ImageNet ILSVRC-2012, with the well-known networks such as ResNet, AlexNet, or VGG16. Although the paper is reproducible as a whole, we aim to compare different prunning approaches on CIFAR-10 only, while using VGG16 as our network.
+Our project paper, [Convolutional Neural Network Pruning with Structural Redundancy Reduction](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Convolutional_Neural_Network_Pruning_With_Structural_Redundancy_Reduction_CVPR_2021_paper.pdf) by Wang et al., was accepted to CVPR 2021. In the paper, authors propose a filter pruning method, which highlights the importance of pruning filters from 'redundant' layers rather than pruning filters from the network as a whole. The main contribution of the paper is the method for computing structural redundancies of convolutional layers, where the proposed algorithm differs from and outperforms the state-of-the-art approaches [1-5]. As the dataset, the authors used CIFAR-10 and ImageNet ILSVRC-2012, with the well-known networks such as ResNet, AlexNet, or VGG16. Although the paper is reproducible as a whole, we aim to compare different prunning approaches on CIFAR-10 only, while using VGG16 as our network.
 
 ## 1.1. Paper summary
 
@@ -131,5 +131,5 @@ Zhang. Eigendamage: Structured pruning in the kroneckerfactored eigenbasis. arXi
 
 # Contact
 
-Mustafa Duymuş (mduymus@ceng.metu.edu.tr) <br />
-Erce Guder     (guder.erce@gmail.com)
+Erce Guder     (guder.erce@gmail.com) <br />
+Mustafa Duymuş (mduymus@ceng.metu.edu.tr)
